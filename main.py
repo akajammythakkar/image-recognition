@@ -7,8 +7,8 @@ app = Flask(__name__, static_folder="static", template_folder="templates")
 app.secret_key = "supersecretkey"  # Needed for session storage
 
 # Configuration
-PROJECT = "YOUR_PROJECT_ID"
-ENDPOINT_ID = "VERTEXAIENDPOINT"
+PROJECT = "97482719406"
+ENDPOINT_ID = "1995891780855267328"
 LOCATION = "us-central1"
 API_ENDPOINT = "us-central1-aiplatform.googleapis.com"
 

@@ -12,7 +12,7 @@ app.secret_key = "supersecretkey"  # Needed for session storage
 # Configuration
 PROJECT = os.getenv("PROJECT","97482719406")
 ENDPOINT_ID = os.getenv("ENDPOINT_ID","1995891780855267328")
-LOCATION = os.getnev("LOCATION","us-central1")
+LOCATION = os.getenv("LOCATION","us-central1")
 API_ENDPOINT = os.getenv("API_ENDPOINT","us-central1-aiplatform.googleapis.com")
 
 @app.route('/')
